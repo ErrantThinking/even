@@ -9,10 +9,12 @@ $theme-color-map: (
 // TODO: allow to change that
 $main-colour: #bb5649;
 $secondary-colour: #f8f5ec;
-$body-width: 800px;
+//$body-width: 800px;
+$body-width: 45em;
 $mobile-navbar-height: 50px !default;
 $code-colour: #c7254e;
 $code-font-family: Consolas, Monaco, Menlo, Consolas, monospace !default;
+//$decoration-font-family: Athelas, STHeiti, Microsoft Yahei, serif;
 $decoration-font-family: Athelas, STHeiti, Microsoft Yahei, serif;
 
 @mixin min-screen($min-width: $body-width) {
